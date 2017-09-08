@@ -1,0 +1,14 @@
+h2{
+	width: 285px;
+    font-family: Microsoft JhengHei;
+}
+
+#thattext{
+	width: 420px;
+}
+
+@media (max-width: 470px) {
+	#thattext{
+		width: 96%;
+	}
+}

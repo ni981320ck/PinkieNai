@@ -1,0 +1,19 @@
+h4{
+    margin-left: 145px;
+}
+
+#Recent{
+    opacity: 0.7;
+}
+
+@media (max-width: 988px) {
+	h4{
+        margin-left: 0px;
+	}
+}
+
+@media (max-width: 795px) {
+	#new{
+		width: 97%;
+	}
+}

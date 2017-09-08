@@ -1,0 +1,38 @@
+h1{
+    width: 100%;
+    font-family: monospace;
+}
+
+#sidebar{
+	background-color: rgba(0,0,0,0); 
+}
+
+#BTC{
+	width: 200px;
+}
+
+#content{
+	width: 100%;
+    margin: 100px 0px 0px 0px;
+}
+
+#support{
+	width: 100%;
+    text-align: center;
+}
+
+#supportfollow{
+	font-family: Microsoft JhengHei;
+}
+
+#supportpaypal{
+	width: 100%;
+	color: #FFB7DD;
+    text-shadow: 2px 2px 2px #000;
+}
+
+@media (max-width: 615px) { 
+	h1{
+	    margin: -5% 0px 35px 0px;
+	}
+}

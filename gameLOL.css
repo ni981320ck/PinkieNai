@@ -1,0 +1,52 @@
+h4{
+    margin: 2.5% 0px 4.5% 28%;
+}
+
+#champion{
+	width: 100%;
+}
+
+#champion iframe{
+    width: 500px;
+}
+
+#sister{
+    display: block;
+    width: 450px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: monospace;
+    background-color: #DDDDDD;
+    border-left: solid 4px #333;
+    box-shadow: 2px 2px 5px #000;
+}
+
+@media (max-width: 1080px) { 
+    #champion a img{
+        width: 96%;
+    }
+}
+
+@media (max-width: 920px) { 
+    #champion h4{
+        width: 45%;
+    }
+}
+
+@media (max-width: 560px) { 
+    #champion iframe{
+        width: 96%;
+    }
+}
+
+@media (max-width: 500px) {
+    #sister{
+        width: 96%;
+    }
+}
+
+@media (max-width: 330px) { 
+    #champion h2{
+        width: 75%;
+    }
+}

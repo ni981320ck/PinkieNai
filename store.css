@@ -1,0 +1,17 @@
+h2{
+    font-family: Microsoft JhengHei;
+}
+
+.shop{
+    float: left;
+    width: 93%;
+    margin-bottom: 10px;
+}
+
+.boxbox{
+    float: left;
+    text-align: center;
+    font-size: 15pt;
+    font-family: Microsoft JhengHei;
+    margin : 20px 0px 0px 20px;
+}

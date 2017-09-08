@@ -1,0 +1,17 @@
+textarea{
+	width: 96%;
+	height: 1800px;
+	color: rgba(255,255,255,0.8);
+	font-size: 13pt;
+	background: rgba(0,0,0,0.5);
+}
+
+#record iframe{
+	margin-left: 0px; 
+}
+
+@media (max-width: 560px) { 
+	#record iframe{
+		margin-left: 0px; 
+	}
+}

@@ -1,0 +1,208 @@
+*{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#support, #friendship, #commonly{
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#twitter-tweet{
+  float: left;
+  width: 96%;
+  margin-top: 5%;
+  margin-bottom: 10px;
+}
+
+.boxbox{
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 15pt;
+  font-family: Microsoft JhengHei;
+}
+
+.boxbox a :hover{
+  transition: 0.5s;
+  transform: rotate(360deg);
+  opacity: 0.5;
+  border-radius: 20px;
+}
+
+/*=====================*/
+.social-nav {
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  margin: 10px auto;
+}
+.social-nav li {
+  display: inline-block;
+}
+.social-nav a {
+  display: inline-block;
+  float: left;
+  width: 120px;
+  height: 120px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  line-height: 120px;
+  background: #000;
+  position: relative;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.model-3d-0 a {
+  background: #333;
+  float: left;
+  margin: 0 10px;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.model-3d-0 a:hover {
+  -moz-transform: rotateX(-90deg);
+  -webkit-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+.model-3d-0 a:hover .fornt {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-0 a:hover .back {
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-0 .front, .model-3d-0 .back {
+  width: 120px;
+  height: 120px;
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -moz-transform: translateZ(18px);
+  -webkit-transform: translateZ(18px);
+  transform: translateZ(18px);
+  -moz-backface-visibility: visible;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+.model-3d-0 .back {
+  font-size: 32px;
+  -moz-transform: rotateX(90deg) translateZ(18px);
+  -ms-transform: rotateX(90deg) translateZ(18px);
+  -webkit-transform: rotateX(90deg) translateZ(18px);
+  transform: rotateX(90deg) translateZ(18px);
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.model-3d-0 .facebook .front {
+  background: url(about/facebook.png);
+}
+.model-3d-0 .youtube .front {
+  background: url(about/youtube.png);
+}
+.model-3d-0 .line .front {
+  background: url(about/line.png);
+}
+.model-3d-0 .instagram .front {
+  background: url(about/instagram.png);
+}
+.model-3d-0 .twitter .front {
+  background: url(about/twitter.png);
+}
+.model-3d-0 .tumblr .front {
+  background: url(about/tumblr.png);
+}
+.model-3d-0 .google-plus .front {
+  background: url(about/google-plus.png);
+}
+
+.model-3d-0 .facebook .back {
+  background: url(about/g-facebook.png);
+}
+.model-3d-0 .youtube .back {
+  background: url(about/g-youtube.png);
+}
+.model-3d-0 .line .back {
+  background: url(about/g-line.png);
+}
+.model-3d-0 .instagram .back {
+  background: url(about/g-instagram.png);
+}
+.model-3d-0 .twitter .back {
+  background: url(about/g-twitter.png);
+}
+.model-3d-0 .tumblr .back {
+  background: url(about/g-tumblr.png);
+}
+.model-3d-0 .google-plus .back {
+  background: url(about/g-google-plus.png);
+}
+
+/*====== Model-9 Animation ========*/
+@-moz-keyframes icon-move {
+  49% {
+    -moz-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes icon-move {
+  49% {
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes icon-move {
+  49% {
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -webkit-transform: translateX(-40px);
+    transform: translateX(-40px);
+    opacity: 0;
+  }
+  50% {
+    -moz-transform: translateX(40px);
+    -ms-transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    opacity: 1;
+  }
+  80% {
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}

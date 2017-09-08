@@ -1,0 +1,170 @@
+#about{
+    float: left;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#about tr:first-child td:first-child
+{
+    padding-left: 40px;
+    padding-right: 50px;
+}
+
+#about tr:nth-of-type(n+2) td:nth-of-type(1){
+    padding: 0px 20px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+#about tr:nth-of-type(2) td:nth-of-type(1){
+    border-left: solid 4px #FF8888;
+}
+
+#about tr:nth-of-type(3) td:nth-of-type(1){
+    border-left: solid 4px #FFBB66;
+}
+
+#about tr:nth-of-type(4) td:nth-of-type(1){
+    border-left: solid 4px #FFFF77;
+}
+
+#about tr:nth-of-type(5) td:nth-of-type(1){
+    border-left: solid 4px #BBFF66;
+}
+
+#about tr:nth-of-type(6) td:nth-of-type(1){
+    border-left: solid 4px #99BBFF;
+}
+
+#en{
+    opacity: 0;
+    margin: 0px 0px 0px 0px;
+}
+
+#en:hover{
+    opacity: 1;
+    transition: 0.27s;
+}
+
+#about tr:nth-of-type(7) td:nth-of-type(1){
+    border-left: solid 4px #9F88FF;
+}
+
+#image{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    opacity: 1;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    box-shadow: 3px 3px 15px #000;
+}
+
+#image1{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    opacity: 1;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+
+#image1:hover{
+    opacity: 0;
+    transition: 1.45s;
+}
+
+#image2{
+    position: relative;
+    margin: 0px 0px 0px -250px;
+    opacity: 1;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    box-shadow: 3px 3px 12px #000;
+}
+
+#phoneimage{
+    display: none;
+}
+
+#link{
+    float: left;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+#link ul{
+    margin-left: 27px;
+}
+
+#record{
+    float: left;
+    font-size: 18pt;
+    font-family: Microsoft JhengHei;
+}
+
+#dark{
+    transition: opacity 2s;
+    opacity: 0;
+    margin-left: -295px;
+}
+
+#dark:hover{
+    transition: opacity 2s;
+    opacity: 1;
+}
+
+#thistext{
+    width: 350px;
+}
+
+#thattext{
+    width: 350px;
+    font-family: Microsoft JhengHei;
+}
+
+@media (max-width: 700px) {
+    #about table{
+        margin-left: 10%;
+    }
+
+    #phoneimage{
+        display: block;
+        width: 250px;
+        height: 250px;
+        border-radius: 250px;
+        box-shadow: 3px 3px 15px #000;
+        margin: 0px 0px 10% 20%;
+    }
+
+    #image, #image1, #image2, #dark{
+        display: none;
+    }
+}
+
+@media (max-width: 510px) {
+    #thattext{
+        width: 94%;
+    }
+}
+
+@media (max-width: 410px) {
+    #about{
+        margin: 0px 0px 0px -50px;
+    }
+    #phoneimage{
+        margin: 0px 0px 30px 80px;
+    }
+    #en{
+        display: none;
+    }
+}
+
+@media (max-width: 395px) {
+    #thistext{
+        width: 96%;
+    }
+}
